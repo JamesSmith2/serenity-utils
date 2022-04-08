@@ -28,7 +28,7 @@ default_tokio_0_2 = ["cache", "rustls_tokio_0_2_backend"]
 default_native_tls_tokio_0_2 = ["cache", "native_tls_tokio_0_2_backend"]
 
 [dependencies.serenity]
-version = "0.10"
+git = "https://github.com/serenity-rs/serenity"
 default-features = false
 features = ["client", "collector", "gateway", "model"]
 
